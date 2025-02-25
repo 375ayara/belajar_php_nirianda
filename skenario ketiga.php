@@ -66,14 +66,15 @@ else
     echo "dunia mimpi";
 }
 
-/* 
-1. Agar jadwal Andi tidak bertabrakan/terlewatkan, maka kita memastikan semua kegiatan Andi memiliki rentang waktu yang jelas.
-2. Urutan kegiatan Anddi yang kami buat berdasarkan logika keseharian dan prioritas aktifitas.
-3. Jika Andi chatting pukul 17:40 WIB, maka Raya chattingan dengan Andi pukul 13:40 WAS. Perbedaan waktu antara WIB dan WAS adalah 4 jam, 4 jam lebih cepat di Indonesia dibanding Arab.
-4. Saat ini tidak ada waktu luang yang signifikan dalam jadwal Andi karena semua waktu sudah terisi dengan kegiatan. Jika ada waktu luang, ketika Andi tidak ada tugas sekolah.
-5. Jika tidak ada tugas sekolah, maka Andi akan memiliki waktu luang 2 jam.
-*/
+?> 
+
+<?php
+echo "<p>1. Apa yang perlu diperhatikan saat menentukan jadwal Andi, sehingga tidak ada jadwal yang bertumbuk atau terlewatkan? </br> => Agar jadwal Andi tidak bertabrakan/terlewatkan, maka kita memastikan semua kegiatan Andi memiliki rentang waktu yang jelas.</br></p>";
+echo "<p>2. Jelaskan alasanmu dalam menentukan urutan kegiatan tersebut! </br> => Urutan kegiatan Andi yang kami buat berdasarkan logika keseharian dan prioritas aktifitas.</br></p>";
+echo "<p>3. Jam berapa Andi dan Raya melakukan chatting waktu lokal rumah Raya? </br> => Jika Andi chatting pukul 17:40 WIB, maka Raya chattingan dengan Andi pukul 13:40 WAS. Perbedaan waktu antara WIB dan WAS adalah 4 jam, 4 jam lebih cepat di Indonesia dibanding Arab.</br></p>";
+echo "<p>4. Apakah masih ada waktu untuk Andi memiliki waktu luang? Jam berapakah? </br> => Saat ini tidak ada waktu luang yang signifikan dalam jadwal Andi karena semua waktu sudah terisi dengan kegiatan. Jika ada waktu luang, ketika Andi tidak ada tugas sekolah.</br></p>";
+echo "<p>5. Jika Andi tidak memiliki tugas sekolah, berapakah waktu luang yang Andi miliki? </br> => Jika tidak ada tugas sekolah, maka Andi akan memiliki waktu luang 2 jam.</br></p>";
     ?>
+
 </body>
 </html>
-
