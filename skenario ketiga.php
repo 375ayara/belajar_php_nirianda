@@ -22,6 +22,9 @@
 // Sebelum tidur, Andi dan keluarganya memiliki kebiasaan mengobrol bersama keluarga selama 30 menit. Mengobrol bersama keluarga dilakukan setelah tugas sekolah Andi selesai dikerjakan. Dapat dimajukan jika tidak ada tugas sekolah.
 // Andi tidur jam 22:00 dan bangun jam 04:00.
 
+$tugas = "ada"; 
+$waktu_ngobrol = "maju";
+
 //Menampilkan jadwal keseharian Andi 
 echo "<h2>Jadwal Harian</h2>";
 echo "<ul>";
@@ -54,8 +57,6 @@ echo "<li><strong>04:00-06:45</strong>: Andi sedang siap-siap sekolah</li>";
 echo "<li><strong>06:45-15:30</strong>: Andi sedang sekolah</li>";
 
 $jam = "19:35"; 
-$tugas = "tidak ada"; 
-$waktu_ngobrol = "maju";
 
 if ($jam == "15:30") {
     echo "<br/> $jam Pulang Sekolah"; 
