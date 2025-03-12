@@ -24,7 +24,7 @@
             /* ini komentar
             tapi bisa beberapa line
             wow */
-
+ 
         $angka1 = 5;
         $angka2 = 10;
         $penjumlahan = $angka1 + $angka2;
